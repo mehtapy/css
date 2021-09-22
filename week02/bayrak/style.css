@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+#kirmizidikdortgen { /*En alttaki kirmizi kare kutucuk*/
+    width: 640px;
+    height: 640px;
+    background-color:#FF0000;
+    vertical-align: middle;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+#yataykutu { /*Beyaz yatay dikdortgen kutucuk*/
+    width: 400px ;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    left: 120px;
+    top: 260px;    
+}
+
+#dikeykutu { /*Beyaz dikey dikdortgen kutucuk*/
+    width: 120px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    left: 140px;
+    top: -120px;
+}
+   
