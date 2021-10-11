@@ -1,0 +1,125 @@
+main{
+    display: flex;
+    background-color: rgb(255,242,204);
+    align-items:center;
+    border: 1px solid rgb(224,200,128);
+    padding: 20px;
+    justify-content: space-between;
+}
+
+/*First shape*/
+.first-shape-container {
+    background-color: #62306D;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+ }
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+}
+
+.box1 {
+    border-radius: 0% 0% 50% 50%;
+    transform: translateY(50%)
+}
+.box2 {
+    border-radius: 50% 50% 0% 0%;
+    transform: translateY(-50%)
+}
+
+/*Second Shape*/
+.second-shape-container{
+    background-color: #e3516e;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.quadrant{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+ }
+
+.top-left {
+    border-top-left-radius: 100%;
+    background-color: #51b5a9;
+}
+
+.top-right{
+    border-top-right-radius: 100%;
+    background-color: #fade8b;
+}
+
+.bottom-left{
+    border-bottom-left-radius: 100%;
+    background-color:#f7f3d7 ;
+}
+
+.bottom-right{
+    border-bottom-right-radius: 100%;
+    background-color:#f7f3d7;
+    visibility: hidden;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    
+}
+/*third shape*/
+.third-shape-container{
+    background-color: #191210;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.center-circle {
+        width: 100px;
+        height: 100px;
+        background: repeating-radial-gradient(circle at 50%, #84271C, #84271C 35%, #191210 35%, #191210 100%);
+        border: 20px solid #ECA03D;
+        border-radius: 100px;
+}
+
+.left-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 20px solid #ECA03D;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(45deg);
+    margin-right: -20px;
+}
+
+.right-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 20px solid #ECA03D;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(45deg);
+    margin-left: -20px;
+    }
