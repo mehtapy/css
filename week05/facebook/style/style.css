@@ -1,0 +1,186 @@
+/*General Styles*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%vw;
+    height: 100%vh;
+
+}
+
+/*Color*/
+h1{
+    color: rgb(21,118,242);
+}
+
+/*Typography*/
+*{
+    font-family:Helvetica,Arial,sans-serif;
+}
+
+/*Layout*/
+
+
+body{
+    position: relative;
+    background-color: #f0f2f5;
+    overflow-x: hidden;
+}
+
+main{
+    display: flex;
+   
+}
+
+
+.logo-container{
+    background-color: rgb(240,242,245);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:20vw;
+    top: 13vh;
+    margin-right: 30vw;
+
+
+}
+/*
+/*Components and their states*/
+
+#facebook{
+    height: 80px;
+    width: 230px;
+    margin-left: 0px;
+    position: absolute;
+    left: -25px;
+    top: 50px;
+    letter-spacing: 2px;
+}
+
+.logo-container>#logo-text{
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 32px;
+    margin-right: 20px;
+    width: 440px;
+}
+
+.form-container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+position: relative;
+background-color: #ffffff;
+width: 400px;
+border-radius: 10px;
+top: 5vh;
+padding: 10px 10px 20px 10px;
+box-shadow: 0px 5px 5px 3px gainsboro;
+}
+ 
+hr{
+     width: 95%;
+     height: 0.1%;
+     background-color:rgb(194,193,193);
+     opacity: 0.5;
+     margin: 10px 0;
+ }
+
+ .form-container input{
+    width: 95%;
+    padding: 15px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+    
+}
+.form-container > input[type=text]:focus{
+    border: 1px solid blue;
+    border: none;
+    box-shadow: 0 0 5px #719ece;
+    caret-color: blue;
+    
+}
+
+::placeholder{
+    color: #90949c;
+}
+
+.form-container>a{
+    margin: 1px 0px;
+    text-decoration: none;
+    font-size: 15px;
+    color:#1877f2; 
+}
+
+.form-container>a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.form-container > input[type=text],.form-container > input[type=password]{
+    height: 35%;
+    margin: 5px 0;
+    padding-left: 10px;
+    font-size: 16px;
+    width: 95%;
+    border:1.5px solid #eeeff0;
+    
+}
+
+.form-container>input:nth-of-type(3){
+    background-color:#1877f2;
+    color: #ffffff;
+    font-size: 20px;
+    height: 30%;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+   
+    
+}
+
+.form-container>input:nth-of-type(3):hover{
+    cursor: pointer;
+    background: color #166fe5; ;
+}
+
+.form-container>input:nth-of-type(4){
+    background-color: #42b72a;
+    color: #ffffff;
+    font-size: 18px;
+    height: 30%;
+    font-weight: bold;
+    width: 60%;
+    text-align: center;
+}
+
+p{
+    font-size: 15px;
+    position: absolute;
+    bottom: -70px;
+    left: 20px;
+    text-align: center;
+}
+
+.f{
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    padding:20px;
+    color: #b2c3d3;
+    font-size: 12px;
+    word-spacing: 12px;
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+    flex-direction: column;
+}
+
